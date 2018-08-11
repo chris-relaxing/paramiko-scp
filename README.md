@@ -8,6 +8,12 @@ Without this script, running a MapReduce job requires multiple cmd windows and s
 3. Once the job is complete, run getmerge commands to compile the output into a text document
 4. In a separate cmd window, use PSCP to download the output 
 
-The paramiko-scp script eliminates all of these steps. It builds the MR command from a couple of simple inputs, automatically increments a job counter, streams the MR output to your screen, runs the getmerge command, and automatically downloads the file to your PC.
+The paramiko-scp script eliminates all of these steps. It: <br>
+
+* builds the MR command from a couple of simple inputs, 
+* automatically increments a job counter, 
+* streams the MR output to your screen in real time, 
+* runs the getmerge command, and 
+* automatically downloads the file to your PC.
 
 
